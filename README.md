@@ -1,6 +1,6 @@
 # The impact of canopy structure and territoriality on habitat selection of male Argia oculata (Odonata: Coenagrionidae)
 
-This repository contains R scripts and data used to analyze the _Argia oculata_ (damselfly) and canopy cover and height datasets.
+This repository contains R scripts and data used to analyse the damselfly species _Argia oculata_ and canopy cover and height datasets.
 
 ## Contents
 - 'damselflystatics.R': Statistical analysis script (R Studio)
