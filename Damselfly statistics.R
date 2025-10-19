@@ -13,6 +13,8 @@ showtext_auto()
 
 ## Uploading data
 
+# Alternatively upload 'canopy_data.csv' file; I named this 'tree_data'
+
 tree_data <- data.frame(
   distance_m = c(0, 0, 5, 5, 10, 10, 15, 15, 20, 20, 25, 25, 30, 30, 35, 35, 40, 40, 45, 45, 50, 50, 55, 55, 60, 60, 65, 65, 70, 70, 75, 75, 80, 80),
   side       = c("left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right", "left", "right"),
@@ -20,7 +22,7 @@ tree_data <- data.frame(
   cover      = c(88.4, 86.2, 89.5, 86.1, 88.6, 86.8, 89.5, 87.0, 89.7, 87.9, 92.1, 91.4, 88.4, 90.4, 92.1, 90.8, 90.7, 80.0, 85.7, 90.0, 89.4, 89.4, 86.8, 88.4, 90.9, 89.7, 92.9, 92.5, 90.7, 88.6, 91.2, 82.8, 89.2, 89.8)
 )
 
-damselfly_distance <- read.csv("C:/Users/isabe/OneDrive - Durham University/Documents/4th Year/Field Course/Damselfly coding/Damselfly project/damselfly mega book 2 csv.csv")
+## Upload the csv file 'damselfly_complete.csv' here; I named this 'damselfly_distance'
 
 head(tree_data)
 head(damselfly_distance)
